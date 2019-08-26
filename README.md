@@ -105,7 +105,7 @@ $ cd /var/www
 $ sudo mkdir FlaskApp
 $ sudo chown -R grader:grader FlaskApp
 $ cd FlaskApp
-$ git clone https://github.com/theashishmalik/item-catalog.git FlaskApp
+$ git clone https://github.com/AshishDhadwal/udacityfullstack-project3item-catalog.git FlaskApp
 ```
 
 11. **Create a flaskapp.wsgi**
