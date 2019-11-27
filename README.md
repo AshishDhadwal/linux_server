@@ -238,11 +238,11 @@ oauth_flow = flow_from_clientsecrets('/var/www/FlaskApp/FlaskApp//client_secrets
 
 > Application:
 
-![Create](https://github.com/theashishmalik/linux-server-configuration/blob/master/static/host.png)
+![Create](https://github.com/AshishDhadwal/linux_server/blob/master/static/host.png)
 
 ## References
 [Flask document](http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/)
 
-[Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-run-django-with-mod_wsgi-and-apache-with-a-virtualenv-python-environment-on-a-debian-vps)
+[Digital Ocean](https://github.com/AshishDhadwal/linux_server/blob/master/static/login.PNG)
 
 
