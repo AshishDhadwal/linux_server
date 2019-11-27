@@ -2,16 +2,16 @@
 
 > A baseline installation of a Linux server and prepare it to host web applications, secure your server from a number of attack vectors, install and configure a database server, and deploy one of your existing web applications onto it.
 
-* IP Address: 54.165.201.125
+* IP Address: http://13.232.172.215/
 * Accessible SSH port: 2200
-* Application URL: [http://54.165.201.125.xip.io/](http://54.165.201.125.xip.io/)
+* Application URL: [http://13.232.172.215/](http://13.232.172.215/)
 
 ## Instruction to configure the server
 
 1. **SSH into server**
 
 ```
-$ ssh -i item-cat.pem ubuntu@54.165.201.125
+$ ssh -i item-cat.pem ubuntu@http://13.232.172.215/
 ```
 
 2. **Update all packages**
@@ -165,8 +165,8 @@ $ sudo nano /etc/apache2/sites-available/FlaskApp.conf
 
 ```apache
 <VirtualHost *:80>
-		ServerName 54.165.201.125.xip.io
-		ServerAdmin admin@aashish.com
+		ServerName 13.232.172.215
+		ServerAdmin admin@13.232.172.215
 		WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi
 		<Directory /var/www/FlaskApp/FlaskApp/>
 			Order allow,deny
@@ -228,7 +228,7 @@ CLIENT_ID = json.loads(
 oauth_flow = flow_from_clientsecrets('/var/www/FlaskApp/FlaskApp//client_secrets.json', scope='')
 ```
 
-### Now open your brouser and visit to [http://54.165.201.125.xip.io/](http://54.165.201.125.xip.io/)
+### Now open your brouser and visit to [http://13.232.172.215](http://13.232.172.215)
 
 ## SCREENSHOTS
 
