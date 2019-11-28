@@ -11,7 +11,7 @@
 1. **SSH into server**
 
 ```
-$ ssh -i item.pem ubuntu@http://13.232.172.215/
+$ ssh -i item.pem ubuntu@13.232.172.215
 ```
 
 2. **Update all packages**
